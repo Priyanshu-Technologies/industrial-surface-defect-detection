@@ -1,0 +1,40 @@
+# Git
+.git/
+.gitignore
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/
+
+# Local datasets
+data/raw/
+data/processed/
+data/domain_cifar/
+
+# Generated experiment output
+outputs/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment / secrets
+.env
+.streamlit/secrets.toml
+
+# Logs
+*.log

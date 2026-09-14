@@ -1,0 +1,17 @@
+{
+    "model_name": "ResNet18",
+    "num_classes": 6,
+    "class_names": [
+        "crazing",
+        "inclusion",
+        "patches",
+        "pitted_surface",
+        "rolled-in_scale",
+        "scratches"
+    ],
+    "image_size": [
+        224,
+        224
+    ],
+    "confidence_threshold": 0.7
+}
